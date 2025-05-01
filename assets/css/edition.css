@@ -14,6 +14,7 @@ body {
 }
 
 .plate-card {
+  overflow: hidden;
   transform: scale(0.95, 0.95) !important;
   transition-duration: 0.5s !important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
@@ -22,7 +23,10 @@ body {
 
 .plate-card .status {
   transition-duration: 0.5s !important;
-  top: -10px !important;
+  top: 7px !important;
+  left: -50px;
+  padding-inline: 70px !important;
+  transform: rotate(-30deg);
   z-index: -1 !important;
 }
 
@@ -36,7 +40,6 @@ body {
 
 .plate-card:hover .status {
   z-index: 1 !important;
-  top: -25px !important;
   background-color: var(--main-color) !important;
 }
 
