@@ -185,12 +185,12 @@ body {
   }
   .plate .abu-icon {
     top: 5px;
-    left: 18px;
-    font-size: 25px;
+    left: 20px;
+    font-size: 20px;
   }
   .plate .abu-number {
     left: 45%;
-    font-size: 40px;
+    font-size: 30px;
   }
   .plate .fj-icon {
     left: 25px;
@@ -201,8 +201,8 @@ body {
     font-size: 35px;
   }
   .plate .sh-icon {
-    left: 35px;
-    font-size: 25px;
+    left: 38px;
+    font-size: 22px !important;
   }
   .plate .sh-number {
     left: 62%;
@@ -210,18 +210,18 @@ body {
   }
   .plate .umq-icon {
     left: 20px;
-    font-size: 45px;
+    font-size: 40px;
   }
   .plate .umq-number {
     left: 48%;
-    font-size: 45px;
+    font-size: 40px;
   }
   .plate .aj-plate {
     left: 10px;
   }
   .plate .aj-plate h1,
   .plate .aj-plate h2 {
-    font-size: 40px;
+    font-size: 32px !important;
   }
 }
 .plate-card .plate .plate-city {
