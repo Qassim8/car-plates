@@ -59,7 +59,7 @@ body {
   box-shadow: inset 0px 0px 5px 0px rgba(45, 43, 43, 0.685);
 }
 .plate .dubai-icon {
-  top: 32px;
+  top: 40%;
   left: 40px;
   font-family: "dubai";
   text-shadow: -2px -2px 0 #dedd, 2px -2px 0 #dedddd, 
@@ -93,6 +93,7 @@ body {
   left: 45%;
   font-size: 50px;
   font-family: "abudhabi";
+  letter-spacing: 2px;
   color: #111112;
   font-weight: 400 !important;
   text-shadow: -2px -2px 0 #dedd, 2px -2px 0 #dedddd, 
@@ -180,6 +181,7 @@ body {
 }
 .plate .ras-plate h1,
 .plate .ras-plate h2 {
+  font-family: "dubai";
   font-weight: lighter !important;
   font-size: 70px;
   color: #111112;
@@ -189,61 +191,61 @@ body {
 
 @media (max-width: 767px) {
   .plate .dubai-icon {
-    top: 42%;
+    top: 45%;
     left: 10%;
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
   .plate .dubai-number,
   .plate .dubai-c-number {
     left: 40%;
-    font-size: 30px;
+    font-size: 45px;
   }
   .plate .abu-icon {
-    top: 5px;
-    left: 7%;
-    font-size: 13px;
+    top: 15%;
+    left: 9%;
+    font-size: 20px;
   }
   .plate .abu-number {
-    left: 42%;
-    font-size: 25px;
+    left: 50%;
+    font-size: 30px;
   }
   .plate .fj-icon {
     left: 10%;
-    font-size: 30px;
+    font-size: 40px;
   }
   .plate .fj-number {
     left: 55%;
-    font-size: 30px;
+    font-size: 40px;
   }
   .plate .sh-icon {
     left: 15%;
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
   .plate .sh-number {
-    left: 60%;
-    font-size: 22px;
+    left: 65%;
+    font-size: 30px;
   }
   .plate .umq-icon {
     left: 8%;
-    font-size: 25px;
+    font-size: 30px;
   }
   .plate .umq-number {
-    left: 50%;
-    font-size: 30px;
+    left: 55%;
+    font-size: 35px;
   }
   .plate .aj-plate {
     left: 5%;
   }
   .plate .aj-plate h1,
   .plate .aj-plate h2 {
-    font-size: 20px !important;
+    font-size: 35px !important;
   }
   .plate .ras-plate {
     left: 25%;
   }
   .plate .ras-plate h1,
   .plate .ras-plate h2 {
-    font-size: 30px !important;
+    font-size: 40px !important;
   }
 }
 .plate-card .plate .plate-city {
